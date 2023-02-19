@@ -53,7 +53,7 @@ function Task({ task, index, completeTask, removeTask }) {
 function Todo() {
   const [tasks, setTasks] = useState([
     {
-      title: 'Grab some Pizza',
+      title: 'Get some juice',
       completed: true,
     },
     {
@@ -61,7 +61,7 @@ function Todo() {
       completed: true,
     },
     {
-      title: 'Hangout with friends',
+      title: 'Play with friends',
       completed: false,
     },
   ]);
